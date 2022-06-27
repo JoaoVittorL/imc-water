@@ -1,0 +1,50 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+  color: white;
+  border-radius: 16px;
+  width: 200px;
+  padding: 2rem;
+}
+.container h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.container .box-calc {
+  display: flex;
+  flex-direction: column;
+}
+.container .box-calc label {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.container .box-calc input {
+  border: 0 none;
+  outline: 0;
+  padding-left: 5px;
+  height: 20px;
+  margin-block: 10px;
+}
+.container #btn {
+  display: block;
+  margin-inline: auto;
+  padding: 10px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+.container #btn:hover {
+  background-color: red;
+}
+.container p {
+  text-align: center;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
